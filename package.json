@@ -1,0 +1,27 @@
+{
+  "name": "play-components",
+  "version": "0.0.0",
+  "description": "collection of ui components uses by the playproject and it's projects",
+  "main": "src/play-components.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --ssl --open --live",
+    "build": "browserify demo/demo.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playproject-io/play-components.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/playproject-io/play-components/issues"
+  },
+  "homepage": "https://github.com/playproject-io/play-components#readme",
+  "devDependencies": {
+    "budo": "^11.6.3"
+  },
+  "dependencies": {
+    "playproject-brand": "0.0.0"
+  }
+}
